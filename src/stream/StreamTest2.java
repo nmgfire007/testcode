@@ -8,6 +8,7 @@ public class StreamTest2 {
         iterateStream.forEach(i->{
             System.out.println(i);
             System.out.println(i+1+"dev1"+"_01");
+			System.out.println(i+1+"dev1"+"_cherry pick");
         });
     }
 }

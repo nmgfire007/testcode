@@ -7,7 +7,8 @@ public class StreamTest2 {
         Stream<Integer> iterateStream = Stream.iterate(0, n -> n + 2).limit(5);
         iterateStream.forEach(i->{
             System.out.println(i);
-            System.out.println(i+1+"sit");
+            System.out.println(i+1+"dev1"+"_01");
+			System.out.println(i+1+"dev1"+"_cherry pick");
         });
     }
 }
